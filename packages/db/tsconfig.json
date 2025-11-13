@@ -1,0 +1,6 @@
+{
+    "extends" : "@sora/typescript-config/base.json",
+    "compilerOptions": {
+        "types": ["node"],
+    }
+}

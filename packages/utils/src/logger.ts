@@ -1,0 +1,1 @@
+export const log = (...args: any[]) => console.log("[SORA]", ...args);

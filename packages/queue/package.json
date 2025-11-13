@@ -1,0 +1,26 @@
+{
+  "name": "@sora/queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/connection.ts",
+  "exports": {
+    "./connection": "./src/connection.ts",
+    "./queue": "./src/queue.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^5.63.0",
+    "ioredis": "^5.8.2",
+    "kafka-node": "^5.0.0"
+  },
+  "devDependencies": {
+    "@sora/typescript-config": "workspace:*",
+    "@sora/config": "workspace:*",
+    "@types/node": "^22.15.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@sora/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./logger": "./src/logger.ts"
+  },
+  "devDependencies": {
+    "@sora/typescript-config": "workspace:*",
+    "@types/node": "^22.15.3"
+  }
+}

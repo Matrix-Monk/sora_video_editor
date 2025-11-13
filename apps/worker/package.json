@@ -1,0 +1,23 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^5.0.0"
+  },
+  "devDependencies": {
+    "@sora/typescript-config": "workspace:*",
+    "@types/node": "^22.15.3",
+    "@sora/db": "workspace:*",
+    "@sora/queue": "workspace:*",
+    "@sora/config": "workspace:*",
+    "@sora/utils": "workspace:*"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@sora/db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/client.ts",
+  "types": "./src/client.ts",
+  "exports": {
+    "./client": "./src/client.ts"
+  },
+  "scripts": {
+    "migrate": "prisma migrate dev",
+    "generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "@sora/config": "workspace:*"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.0",
+    "@sora/typescript-config": "workspace:*",
+    "@types/node": "^22.15.3"
+  }
+}
