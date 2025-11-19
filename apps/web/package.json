@@ -11,9 +11,12 @@
     "check-types": "next typegen && tsc --noEmit"
   },
   "dependencies": {
+    "@next-auth/prisma-adapter": "^1.0.7",
     "@sora/ui": "workspace:*",
     "@tailwindcss/postcss": "^4.1.17",
+    "bcryptjs": "^3.0.3",
     "next": "^16.0.1",
+    "next-auth": "^4.24.13",
     "postcss": "^8.5.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -22,6 +25,8 @@
   "devDependencies": {
     "@sora/eslint-config": "workspace:*",
     "@sora/typescript-config": "workspace:*",
+    "@sora/db": "workspace:*",
+    "@sora/config": "workspace:*",
     "@types/node": "^22.15.3",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
