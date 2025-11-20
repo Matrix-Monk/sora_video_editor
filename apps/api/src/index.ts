@@ -17,8 +17,11 @@ app.use(express.json())
 
 app.use('/api/v1', v1Router)
 
-app.listen(config.PORT, () => {
-    console.log(`Server is running on port${config.PORT}`)
-})
+app.listen(config.API_PORT, () => {
+  console.log(`Server is running on port ${config.API_PORT}`);
+});
 
-export { prisma, generationQueue, addJob  };
+export {
+  prisma,
+  generationQueue, addJob
+};

@@ -6,12 +6,13 @@
   "types": "./src/index.ts",
   "exports": {
     "./config": {
-      "types": "./src/index.ts",
-      "default": "./src/index.ts"
+      "types": "./dist/index.js",
+      "default": "./dist/index.js"
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b"
   },
   "keywords": [],
   "author": "",

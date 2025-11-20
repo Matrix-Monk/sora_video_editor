@@ -1,15 +1,14 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from "@prisma/client";
 import { config } from "@sora/config/config";
-
 
 const globalForPrisma = global as unknown as { prisma: PrismaClient };
 
 export const prisma =
   globalForPrisma.prisma ||
   new PrismaClient({
-    log: ['error', 'warn'],
+    log: ["error", "warn"],
   });
 
-if (config.NODE_ENV!== 'production') globalForPrisma.prisma = prisma;
+if (config.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
 
 export default prisma;

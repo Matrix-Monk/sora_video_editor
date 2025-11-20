@@ -4,12 +4,13 @@
   "description": "",
   "main": "./src/connection.ts",
   "exports": {
-    "./connection": "./src/connection.ts",
-    "./queue": "./src/queue.ts"
+    "./connection": "./dist/connection.js",
+    "./queue": "./dist/queue.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },  
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

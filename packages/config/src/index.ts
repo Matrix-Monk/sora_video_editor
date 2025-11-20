@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export const config = {
-  PORT: process.env.PORT,
+  API_PORT: process.env.API_PORT,
   NODE_ENV: process.env.NODE_ENV!,
   DATABASE_URL: process.env.DATABASE_URL!,
   REDIS_URL: process.env.REDIS_URL || "redis://localhost:6379",
@@ -15,5 +15,5 @@ export const config = {
   GOOGLE: {
     GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID!,
     GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET!,
-  }
+  },
 };

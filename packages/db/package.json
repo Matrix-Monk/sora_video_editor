@@ -16,11 +16,12 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.19.0",
-    "@sora/config": "workspace:*"
+    "@sora/config": "workspace:*",
+    "dotenv": "^17.2.3"
   },
   "devDependencies": {
-    "prisma": "^6.19.0",
     "@sora/typescript-config": "workspace:*",
-    "@types/node": "^22.15.3"
+    "@types/node": "^22.15.3",
+    "prisma": "^6.19.0"
   }
 }
